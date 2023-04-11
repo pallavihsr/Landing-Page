@@ -1,0 +1,206 @@
+:root{
+    --light-dark : #444444;
+    --dark : #000000;
+    --aqua : #34b7a7;
+    --light-aqua: #51cdbe;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+/* Navigation bar*/
+ 
+.navbar{
+    background-color : white;
+
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+color: var(--light-aqua);
+}
+.nav-item .active{
+color: var(--aqua) !important;
+}
+/*hero image*/
+/*.hsr-hero-image{
+background-image: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png');
+
+}*/
+
+.hero-3 {
+    padding: 70px 0 140px;
+    background-image: url(../images/hero-3-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.features-bg {
+    background-image: url(../images/features-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.section {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+    position: relative;
+}
+
+.fs-38 {
+    font-size: 38px;
+}
+
+.avatar-lg {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs-accordion .accordion-item {
+    border-bottom: none;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(52, 58, 64, 0.08);
+}
+
+
+.footer.bg-dark {
+    background-image: url(../images/footer-light-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer {
+    position: relative;
+    padding: 80px 0 30px;
+}
+.footer .footer-social-icon {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 0 0px rgba(255, 255, 255, 0.1);
+}
+a {
+    text-decoration: none !important;
+    outline: none;
+    color: #1f61eb;
+}
+
+.footer .footer-nav li {
+    padding: 6px 0;
+}
+
+.footer .footer-nav li .footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.subtitle {
+    color: #343a40;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 18px;
+    line-height: 1.3;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+.row > * {
+    position: relative;
+}
+.contact-icon {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+.text-secondary {
+    color: #536976 !important;
+}
+
+.p {
+    line-height: 1.7;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.card {
+    border: none;
+    box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+}
+
+
+label.form-label {
+    font-size: 15px;
+    font-family: "Cerebri Sans,sans-serif";
+    font-weight: 500;
+    color: #6c757d;
+}
+.form-control {
+    border-color: #e9ecf1;
+}
+.btn.btn-gradient-danger {
+    background: linear-gradient(to right, #eb1f52 0%, #f594ac 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+}
+
+
+
+.team-card{
+    width:20%;
+    gap:5%;
+    border:1px solid grey;
+    border-radius:4px;
+    background-color:white;
+  }
+  .tm-description{
+    padding:5px 10px;
+  }
+  .team-card img{
+    width:100%;
+    height:auto;
+  }
+  .team-body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5%;
+    margin-top:20px;
+  }
